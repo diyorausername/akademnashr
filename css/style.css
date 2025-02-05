@@ -1,3 +1,22 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../css/font/Roboto-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../css/font/Roboto-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Roboto;
+  src: url("../css/font/Roboto-Medium.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   font-family: Roboto, sans-serif;
 }
@@ -6,7 +25,7 @@
 }
 
 .site-nav {
-  color: black;
+  color: #000;
   text-decoration: none;
   font-weight: 500;
   font-size: 13px;
@@ -45,6 +64,7 @@
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.5px;
+  font-family: "Roboto condensed";
 }
 
 .hero-text {
@@ -59,6 +79,7 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 86.4px;
+  font-family: "Roboto condensed";
 }
 
 .feature {
@@ -80,7 +101,7 @@
   font-weight: 700;
   line-height: 28.8px;
   letter-spacing: 0.5px;
-
+  font-family: "Roboto condensed";
 }
 
 .feature-item-text {
@@ -104,6 +125,7 @@
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
+  font-family: "Roboto condensed";
 }
 
 .primary-text {
@@ -137,4 +159,7 @@ background-color: #f8f8f8;
 .sale-img {
   width: 440;
   height: 440;
+}
+.list-none {
+  list-style: none;
 }

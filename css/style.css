@@ -1,24 +1,24 @@
 @font-face {
-  font-family: Roboto;
-  src: url("../css/font/Roboto-Medium.ttf");
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: Roboto;
-  src: url("../css/font/Roboto-Medium.ttf");
+  font-family: "Roboto";
+  src: url("../font/Roboto-Medium.ttf");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: Roboto;
-  src: url("../css/font/Roboto-Medium.ttf");
+  font-family: "Roboto";
+  src: url("../font/Roboto-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 * {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .site-header {
   background-color: #fff;
@@ -53,8 +53,8 @@
   color: #fff;
 }
 
-.orange-lion {
-  color: #FF7500;
+.orange-line {
+  background-color: #FF7500;
   width: 80px;
   height: 3px;
 }
@@ -79,22 +79,15 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 86.4px;
-  font-family: "Roboto condensed";
+  font-family: "Roboto";
 }
 
 .feature {
-  width: 47.12px;
-  top: 3.28px;
-  left: 3.28px;
-  gap: 0px;
-  opacity: 0px;
-  color: black;
+  width: 340px;
+
 
 }
 
-.features-title {
-  color: black;
-}
 
 .feature-item-title {
   font-size: 24px;
@@ -153,7 +146,7 @@ background-color: #f8f8f8;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
-  color:#25242080 ;
+  color:#252420;
   text-decoration: none;
 }
 .sale-img {

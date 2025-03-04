@@ -22,7 +22,6 @@
 
 * {
   font-family: "Roboto", sans-serif;
-  margin: 0;
 }
 
 .list-none {
@@ -36,10 +35,11 @@
   align-items: center;
   border-top: 5px  solid #FF7500;
   padding: 16px 0 ;
-}
 
+}
 .site-logo {
   transition: opacity 0.5s ease;
+  padding-left: 110px;
 }
 
 .site-logo:hover {
@@ -53,14 +53,15 @@
 .site-header-nav {
   display: flex;
   align-items: center;
-  gap: 32px;
+  margin-right: 110px;
 }
 
 .site-header-list {
   list-style: none;
   display: flex;
   gap: 32px;
-  padding: 0;
+  padding: 0 ;
+  
 }
 
 .sitenav-link {
@@ -72,6 +73,7 @@
   color: #000;
   text-decoration: none;
   transition: color 0, 5 ease;
+  margin: 20px ;  
 }
 
 .sitenav-link:hover {
@@ -101,13 +103,17 @@
   align-items: center;
   justify-content: space-between;
   padding: 80px 0;
+
 }
 .hero-section img {
   border-radius: 8px;
+  margin-right: 100px;
 }
 .hero-content {
   width: 390px;
   color: #fff;
+  margin-left:120px ;
+
 }
 
 .orange-line {
@@ -138,6 +144,7 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 86.4px;
+  margin-left: 110px;
 }
 .feature-section {
   padding: 210px 0;
@@ -147,6 +154,8 @@
   list-style: none;
   justify-content: space-between;
   padding: 0;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .feature {
@@ -176,15 +185,16 @@
   justify-content: space-between;
   padding: 64px 0;
   border-radius: 12px;
-
+ 
 }
 .sale img {
   border-radius: 12px;
+  margin-right: 110px;
 }
 .sale-content {
   width: 440px;
   color: #fff;
-
+  margin-left: 110px;
 }
 
 
@@ -214,7 +224,7 @@
 .site-footer {
   background-color: #f8f8f8;
   padding: 56px 0;
-
+  margin-top: 140px;
 }
  
 .footer-divider {
@@ -237,6 +247,8 @@
 }
 .footer-bottom ul {
   padding: 0;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 .footer-link {
   font-weight: 400;
@@ -246,6 +258,7 @@
   text-decoration: none;
   transition: all 0.5s ease;
   padding: 7px;
+
 }
 
 .footer-link:hover {

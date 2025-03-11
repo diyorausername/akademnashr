@@ -33,13 +33,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 5px  solid #FF7500;
-  padding: 16px 0 ;
+  border-top: 5px solid #FF7500;
 
 }
+
 .site-logo {
   transition: opacity 0.5s ease;
-  padding-left: 110px;
+
 }
 
 .site-logo:hover {
@@ -59,9 +59,21 @@
 .site-header-list {
   list-style: none;
   display: flex;
-  gap: 32px;
-  padding: 0 ;
-  
+  margin-right: 32px;
+  padding: 0;
+
+}
+
+.sitenav-list-item {
+  margin-right: 32px;
+}
+
+.sitenav-list-item:last-child {
+  margin-right: 0;
+}
+
+.site-header.active {
+  border-bottom: 3px solid chocolate;
 }
 
 .sitenav-link {
@@ -72,8 +84,9 @@
   text-transform: uppercase;
   color: #000;
   text-decoration: none;
-  transition: color 0, 5 ease;
-  margin: 20px ;  
+  transition: color 0.5s ease;
+  opacity: 0.5s ease;
+  padding: 4px 0;
 }
 
 .sitenav-link:hover {
@@ -105,23 +118,28 @@
   padding: 80px 0;
 
 }
+
 .hero-section img {
   border-radius: 8px;
-  margin-right: 100px;
 }
+
 .hero-content {
   width: 390px;
   color: #fff;
-  margin-left:120px ;
-
 }
 
-.orange-line {
+.orange-lion {
   background: #FF7500;
   width: 80px;
   height: 3px;
   border: none;
+  margin: 0;
 }
+
+.hero-line {
+  margin-bottom: 40px;
+}
+
 
 .hero-title {
   font-family: "Roboto condenced";
@@ -129,6 +147,8 @@
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .hero-text {
@@ -136,6 +156,8 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .feature-title {
@@ -144,23 +166,30 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 86.4px;
-  margin-left: 110px;
+  margin-top: 0;
+  margin-bottom: 72px;
 }
+
+.feature-line {
+  margin-bottom: 24px;
+}
+
 .feature-section {
   padding: 210px 0;
 }
+
 .feature-list {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  margin: 0;
   padding: 0;
-  margin-left: 110px;
-  margin-right: 110px;
+
 }
 
 .feature {
   width: 340px;
   color: #000;
+  margin-right: 40px;
 }
 
 .feature-item-title {
@@ -169,6 +198,14 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.5px;
+}
+
+.feature:last-child {
+  margin-right: 0;
+}
+
+.feature img {
+  margin-bottom: 24px;
 }
 
 .feature-item-text {
@@ -183,14 +220,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 64px 0;
+  padding: 64px;
   border-radius: 12px;
- 
+
 }
+
 .sale img {
   border-radius: 12px;
-  margin-right: 110px;
+
 }
+
 .sale-content {
   width: 440px;
   color: #fff;
@@ -204,6 +243,8 @@
   font-size: 40px;
   line-height: 48px;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .sale-text {
@@ -211,11 +252,14 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+  margin-bottom: 12px;
 }
+
 .sale-img {
- width: 440;
+  width: 440;
   height: 440;
 }
+
 .primary-text {
   color: #ff7500;
   font-weight: 700;
@@ -226,10 +270,18 @@
   padding: 56px 0;
   margin-top: 140px;
 }
- 
+
 .footer-divider {
   height: 2px;
   background-color: #25242080;
+  margin-bottom: 64px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .list-logo {
@@ -237,19 +289,47 @@
   justify-content: end;
   gap: 16px;
   list-style: none;
-  
+
 }
 
-.footer-bottom  {
+.footer-bottom {
   display: flex;
-  justify-content: space-between;
-  padding: 50px 0;
 }
-.footer-bottom ul {
+
+
+.footer-bottom-list {
   padding: 0;
-  margin-left: 110px;
-  margin-right: 110px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 224px;
+  margin-right: 68px;
 }
+
+.footer-bottom-list li {
+  margin-bottom: 16px;
+}
+
+.footer-bottom-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-bottom-list:last-child {
+  margin-right: 0;
+}
+
+.footer-top-list {
+  display: flex;
+  padding: 0;
+}
+
+.footer-top-list li {
+  margin-right: 16px;
+}
+
+.footer-top-list li:last-child {
+  margin-right: 0;
+}
+
 .footer-link {
   font-weight: 400;
   font-size: 16px;
@@ -257,7 +337,7 @@
   color: #252420;
   text-decoration: none;
   transition: all 0.5s ease;
-  padding: 7px;
+
 
 }
 

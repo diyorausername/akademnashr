@@ -24,6 +24,14 @@
   font-family: "Roboto", sans-serif;
 }
 
+.orange-lion {
+  background: #FF7500;
+  width: 80px;
+  height: 3px;
+  border: none;
+  margin: 0;
+}
+
 .list-none {
   list-style: none;
 }
@@ -34,6 +42,10 @@
   justify-content: space-between;
   align-items: center;
   border-top: 5px solid #FF7500;
+<<<<<<< HEAD
+=======
+  padding: 16px 0;
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 
 }
 
@@ -61,7 +73,10 @@
   display: flex;
   margin-right: 32px;
   padding: 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .sitenav-list-item {
@@ -70,10 +85,13 @@
 
 .sitenav-list-item:last-child {
   margin-right: 0;
+<<<<<<< HEAD
 }
 
 .site-header.active {
   border-bottom: 3px solid chocolate;
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .sitenav-link {
@@ -84,13 +102,21 @@
   text-transform: uppercase;
   color: #000;
   text-decoration: none;
+<<<<<<< HEAD
   transition: color 0.5s ease;
+=======
+  transition: color 0, 5 ease;
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
   opacity: 0.5s ease;
   padding: 4px 0;
 }
 
 .sitenav-link:hover {
   color: #FF7500;
+}
+
+.site-header .active {
+  border-bottom: 3px solid chocolate;
 }
 
 .main-link {
@@ -116,9 +142,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 80px 0;
-
 }
 
+.hero-line {
+  margin-bottom: 40px;
+}
+
+<<<<<<< HEAD
 .hero-section img {
   border-radius: 8px;
 }
@@ -126,14 +156,24 @@
 .hero-content {
   width: 390px;
   color: #fff;
+=======
+.hero-content {
+  width: 390px;
+  color: #fff;
+  margin-left: 120px;
+
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .orange-lion {
   background: #FF7500;
   width: 80px;
   height: 3px;
+<<<<<<< HEAD
   border: none;
   margin: 0;
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .hero-line {
@@ -148,7 +188,11 @@
   line-height: 48px;
   letter-spacing: 0.5px;
   margin-top: 0;
+<<<<<<< HEAD
   margin-bottom: 32px;
+=======
+  margin-bottom: 24px;
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .hero-text {
@@ -172,24 +216,43 @@
 
 .feature-line {
   margin-bottom: 24px;
+<<<<<<< HEAD
 }
 
 .feature-section {
   padding: 210px 0;
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .feature-list {
   display: flex;
   list-style: none;
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
 
+=======
+  padding: 0;
+  margin: 0;
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .feature {
   width: 340px;
   color: #000;
   margin-right: 40px;
+<<<<<<< HEAD
+=======
+}
+
+.feature:last-child {
+  margin-right: 0;
+}
+
+.feature img {
+  margin-bottom: 24px;
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .feature-item-title {
@@ -198,6 +261,8 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .feature:last-child {
@@ -222,12 +287,18 @@
   justify-content: space-between;
   padding: 64px;
   border-radius: 12px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .sale img {
   border-radius: 12px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .sale-content {
@@ -247,6 +318,7 @@
   margin-bottom: 24px;
 }
 
+
 .sale-text {
   font-weight: 400;
   font-size: 16px;
@@ -255,6 +327,13 @@
   margin-bottom: 12px;
 }
 
+<<<<<<< HEAD
+=======
+.sale-text:last-child {
+  margin-bottom: 0;
+}
+
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 .sale-img {
   width: 440;
   height: 440;
@@ -268,7 +347,6 @@
 .site-footer {
   background-color: #f8f8f8;
   padding: 56px 0;
-  margin-top: 140px;
 }
 
 .footer-divider {
@@ -282,6 +360,23 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+<<<<<<< HEAD
+=======
+}
+
+.footer-top-list {
+  display: flex;
+
+  padding: 0;
+}
+
+.footer-top-list li {
+  margin-right: 16px;
+}
+
+.footer-top-list li:last-child {
+  margin-right: 0;
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 }
 
 .list-logo {
@@ -294,9 +389,15 @@
 
 .footer-bottom {
   display: flex;
+<<<<<<< HEAD
 }
 
 
+=======
+
+}
+
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 .footer-bottom-list {
   padding: 0;
   margin-top: 0;
@@ -317,6 +418,7 @@
   margin-right: 0;
 }
 
+<<<<<<< HEAD
 .footer-top-list {
   display: flex;
   padding: 0;
@@ -329,6 +431,8 @@
 .footer-top-list li:last-child {
   margin-right: 0;
 }
+=======
+>>>>>>> c23926db51a76a4acea4c89b6a5a62d7a50a8551
 
 .footer-link {
   font-weight: 400;

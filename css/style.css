@@ -57,11 +57,15 @@
   background-color: white;
   border-top: 5px solid #FF7500;
   padding: 16px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .site-logo {
   transition: opacity 0.5s ease;
-  
+
 
 }
 
@@ -76,7 +80,7 @@
 .site-header-nav {
   display: flex;
   align-items: center;
-  
+
 }
 
 .site-header-list {
@@ -145,13 +149,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .hero-line {
   margin-bottom: 40px;
 }
 
-.hero-section img {
+
+.hero-img {
+  position: absolute;
+  right: 20px;
+  top: -40px;
   border-radius: 8px;
   box-shadow: 24px 24px 0 0 chocolate;
 }
@@ -274,11 +283,16 @@
   background-color: #252420;
   padding: 64px;
   border-radius: 12px;
+  position: relative;
 }
 
-.sale img {
+.sale-img {
   border-radius: 12px;
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
 }
+
 
 .sale-content {
   width: 440px;
@@ -309,10 +323,7 @@
   margin-bottom: 0;
 }
 
-.sale-img {
-  width: 440px;
-  height: 440px;
-}
+
 
 .primary-text {
   color: #ff7500;
